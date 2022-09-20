@@ -3,14 +3,20 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32804.467
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HtmlPractice", "HtmlPractice\HtmlPractice.csproj", "{74A40A8F-3300-4354-9E3E-BE3EC35469F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HtmlPractice", "HtmlPractice\HtmlPractice.csproj", "{74A40A8F-3300-4354-9E3E-BE3EC35469F8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C7B21837-320A-4633-A700-E397816DB940}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab1", "Lab1\Lab1.csproj", "{1E4C9E2B-AF34-4602-85AC-81801FBBA78F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lab1", "Lab1\Lab1.csproj", "{1E4C9E2B-AF34-4602-85AC-81801FBBA78F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormDemo", "FormDemo\FormDemo.csproj", "{E7A6661C-3B53-4788-A575-A622366A4E48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControllerPractice1", "ControllerPractice1\ControllerPractice1.csproj", "{5D7DF98C-1047-4C0A-B41D-EBE2B0DC1713}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab2", "Lab2\Lab2.csproj", "{CF106BFD-6A88-41FE-9F0D-82FB519A84C9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,6 +32,18 @@ Global
 		{1E4C9E2B-AF34-4602-85AC-81801FBBA78F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E4C9E2B-AF34-4602-85AC-81801FBBA78F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E4C9E2B-AF34-4602-85AC-81801FBBA78F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7A6661C-3B53-4788-A575-A622366A4E48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7A6661C-3B53-4788-A575-A622366A4E48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7A6661C-3B53-4788-A575-A622366A4E48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7A6661C-3B53-4788-A575-A622366A4E48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D7DF98C-1047-4C0A-B41D-EBE2B0DC1713}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D7DF98C-1047-4C0A-B41D-EBE2B0DC1713}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D7DF98C-1047-4C0A-B41D-EBE2B0DC1713}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D7DF98C-1047-4C0A-B41D-EBE2B0DC1713}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF106BFD-6A88-41FE-9F0D-82FB519A84C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF106BFD-6A88-41FE-9F0D-82FB519A84C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF106BFD-6A88-41FE-9F0D-82FB519A84C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF106BFD-6A88-41FE-9F0D-82FB519A84C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
