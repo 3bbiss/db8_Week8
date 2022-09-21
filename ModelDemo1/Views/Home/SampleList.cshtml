@@ -1,0 +1,17 @@
+﻿@model List<Person>; // this line says the type we're passing in
+
+@{
+    ViewData["Title"] = "SampleList";
+
+    int Count = Model.Count;
+}
+
+<h1>Employees of @ViewData["Department"] in @ViewData["Year"]</h1>
+<h2>There are @Count employees.</h2>
+
+
+@foreach (Person next in Model){
+    <div>
+        @next.FirstName @next.LastName @next.Email @next.Born
+    </div>
+}

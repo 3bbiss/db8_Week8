@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewData["Title"] = "AddPetForm";
+}
+
+<h1>Hey, please enter your pet's information.</h1>
+<br />
+
+<form method="post" action="/home/addpet">
+    Species: <input type="text" name="species"/> <br />
+    Name: <input type="text" name="name" /> <br />
+    Color: <input type="text" name="color" /> <br />
+    Gender: <input type="text" name="gender" /> <br />
+    Weight: <input type="text" name="weight"/> <br/>
+    Born: <input type="text" name="born"/> <br/>
+    <input type="submit" value="Submit Information" />
+</form>
+

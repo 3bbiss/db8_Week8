@@ -1,0 +1,10 @@
+﻿@model Person; // this line tells the view what TYPE the model is
+@{
+    ViewData["Title"] = "Sample";
+}
+
+<h1>Sample</h1>
+
+@Model.FirstName @Model.LastName<br/>
+Email: @Model.Email
+Born: @Model.Born

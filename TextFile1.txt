@@ -1,0 +1,33 @@
+Practice 1
+
+In this practice, you will create a class called Animal. You will provide the following properties for Animal:
+
+public string Species { get; set ;}
+public string Name {get; set; }
+public string Color { get; set; }
+public string Gender { get; set; }
+public double Weight { get; set; }
+public int Born { get; set; }
+
+Create a method that responds to the URL /home/addpetform. Include a view that lets the user enter in all the pet information, i.e.:
+
+<form … >
+	Species: <input type=text … “ (etc.)
+</form>
+
+Then create a method that receives information from the form about the pet with the URL /home/addpet. This method will receive as a parameter a type Animal. Send this instance to the view as a model.  Here’s the model:
+
+@model Animal
+
+Then display all the information on the animal.
+
+Practice 2
+
+Create a form for entering in information about a TacoBellItem. (Put whatever fields you want, such as name, price, calories, etc.) Call the class whatever you like. The form will then have an action that calls back to the server, which in turn displays a page with all the information about the menu item.
+
+Include server-side validation. If the name of the item is blank, go to an error page. If the price is less than or equal to 0, go to an error page.
+
+
+
+
+
