@@ -61,7 +61,9 @@ namespace ModelDemo1.Controllers
                 // Let's use a different view born < 2004
                 // We'll call the view Under18.cshtml
                 //return View("Under18");
-                return Redirect("/home/index");
+                //return Redirect("/home/index");
+                ViewBag.BornMessage = "*Please make sure you were born 2004 or earlier";
+                return View("ShowRegister");
             }
             else
             {

@@ -1,0 +1,72 @@
+﻿
+@{
+    ViewData["Title"] = "ShowForm";
+}
+
+<h1>Add New Instrument!</h1>
+
+@*<form>
+
+    Type:
+    <select name="type">
+    <option>Piano</option>
+    <option>Electric Guitat</option>
+    <option>Synth</option>
+    <option>Trumpet</option>
+    </select>
+    <br />
+
+    Model: <input type="text" name="model"/> <br />
+
+    Color:
+    <select name="color">
+        <option>Black</option>
+        <option>White</option>
+        <option>Red</option>
+        <option>Green</option>
+        <option>Blue</option>
+        <option>Yellow</option>
+    </select>
+    <br />
+
+    Year: <input type="text" name="year"/> <br />
+
+    Price: <input type="text" name="price"/>
+
+    <input type="submit"/>
+
+</form>*@
+
+
+<form method="post" action="/inst/add">
+
+    Type:
+    <select name="type">
+        <option>Piano</option>
+        <option>Electric Guitar</option>
+        <option>Synth</option>
+        <option>Trumpet</option>
+    </select>
+    <br /><br />
+    Model: <input type="text" name="model" /><br /><br />
+    Color:
+    <select name="color">
+        <option>Black</option>
+        <option>White</option>
+        <option>Red</option>
+        <option>Green</option>
+        <option>Blue</option>
+        <option>Yellow</option>
+    </select>
+    <br /><br />
+    Year: <input type="text" name="year" />
+    <span style="color:red; font-weight:bold">@ViewBag.YearMessage</span>
+    <br /><br />
+
+    Price: <input type="text" name="price" />
+    <span style="color:red; font-weight:bold">@ViewBag.PriceMessage</span>
+    <br /><br />
+
+    <input type="submit" />
+
+</form>
